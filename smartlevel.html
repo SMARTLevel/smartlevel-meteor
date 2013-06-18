@@ -1,0 +1,54 @@
+<head>
+  <title>SMARTlevel - Level up your education!</title>
+</head>
+
+<body>
+	<div class="container">
+      	<div class="masthead">
+      	{{> masthead}}
+      	</div>
+		<div class="navbar">
+       		<div class="navbar-inner">
+            		{{> navigation}}
+        	</div>
+    	</div><!-- /.navbar -->
+    	<div><!-- Main page content -->
+        {{renderPage}}
+    	</div>
+	</div><!-- /container -->
+	{{>footer}}
+  	{{> bs-scripts}}
+</body>
+<template name="masthead">
+    <table>
+        <tr><td><h3 class="muted">SMARTlevel</h3> 
+        </td>
+        <p align="right">{{loginButtons}}</p>
+        </tr>
+    </table>
+</template>
+<template name="footer">
+      <hr>
+      <div class="footer">
+        <p align="center">
+        	A Team Gr8 Production
+        	<br />
+        	Created as part of the 2013 Intel Ultimate Engineering Experience at Chandler-Gilbert Community College.
+        </p>
+      </div>
+</template>
+<template name="bs-scripts">
+	<script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap-transition.js"></script>
+    <script src="bootstrap/js/bootstrap-alert.js"></script>
+    <script src="bootstrap/js/bootstrap-modal.js"></script>
+    <script src="bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="bootstrap/js/bootstrap-tab.js"></script>
+    <script src="bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="bootstrap/js/bootstrap-popover.js"></script>
+    <script src="bootstrap/js/bootstrap-button.js"></script>
+    <script src="bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="bootstrap/js/bootstrap-typeahead.js"></script>
+</template>
