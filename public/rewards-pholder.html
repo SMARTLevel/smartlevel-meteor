@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Template &middot; Bootstrap</title>
+    <script>
+var smartpoints = 50000;
+
+var codcost = 15000;
+var soniccost = 30000;
+var finalcost = 40000;
+var nintendocost = 50000;
+var maddencost = 35000;
+var batmancost = 25000;
+var avengerscost = 15000;
+var gamestopcost = 30000;
+var amazoncost = 40000;
+var targetcost = 40000;
+var harkinscost = 35000;
+var starbuckscost = 25000;
+
+function checkCOD()
+{
+  if (smartpoints >= codcost)
+  {
+    alert("Congrats on your new COD gear!")
+    smartpoints = smartpoints - codcost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checksonic()
+{
+  if (smartpoints >= soniccost)
+  {
+    alert("Congrats on your new Sonic gear!")
+    smartpoints = smartpoints - soniccost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+      
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checkfinal()
+{
+  if (smartpoints >= finalcost)
+  {
+    alert("Congrats on your new Final Fantasy gear!")
+    smartpoints = smartpoints - finalcost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checknintendo()
+{
+  if (smartpoints >= nintendocost)
+  {
+    alert("Congrats on your new Nintendo gear!")
+    smartpoints = smartpoints - nintendocost;
+    //printscore();
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checkmadden()
+{
+  if (smartpoints >= maddencost)
+  {
+    alert("Congrats on your new Madden gear!")
+    smartpoints = smartpoints - maddencost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checkbatman()
+{
+  if (smartpoints >= batmancost)
+  {
+    alert("Congrats on your new Batman gear!")
+    smartpoints = smartpoints - batmancost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+
+
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+
+document.writeln('<p id="score"> You have ' + smartpoints + ' to spend </p>' );
+
+function checkavengers()
+{
+  if (smartpoints >= avengerscost)
+  {
+    alert("Congrats on your new Avengers Gear!")
+    smartpoints = smartpoints - avengerscost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checkgamestop()
+{
+  if (smartpoints >= gamestopcost)
+  {
+    alert("Congrats on your new GameStop Card!")
+    smartpoints = smartpoints - gamestopcost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+      
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checkamazon()
+{
+  if (smartpoints >= amazoncost)
+  {
+    alert("Congrats on your new Amazon Card!")
+    smartpoints = smartpoints - amazoncost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checktarget()
+{
+  if (smartpoints >= targetcost)
+  {
+    alert("Congrats on your new Target Card!")
+    smartpoints = smartpoints - targetcost;
+    //printscore();
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checkharkins()
+{
+  if (smartpoints >= harkinscost)
+  {
+    alert("Congrats on your two(2) Harkins Tickets!")
+    smartpoints = smartpoints - harkinscost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+function checkstarbucks()
+{
+  if (smartpoints >= starbuckscost)
+  {
+    alert("Congrats on your new Starbuscks Card!")
+    smartpoints = smartpoints - starbuckscost;
+    document.getElementById("score").innerHTML = 'You have ' + smartpoints + ' to spend';
+  }
+  else
+    alert("Sorry, you do not have enough SmartPoints for that!")
+}
+
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+
+      body {
+        padding-top: 20px;
+        padding-bottom: 60px;
+      }
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+      }
+      .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+
+      .row-fluid .span4 {
+    width: 0%;
+    *width: 0%;
+  }
+
+      .span2 {font-size:large;
+              border: thin solid black;
+              text-align: center;    
+      }
+    </style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="bootstrap/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="bootstrap/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="bootstrap/assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+      <div class="row-fluid">
+
+
+        <div class="span2">
+          <h2>Call of Duty Map</h2>
+          <img src="callofduty.jpg">
+          <p>Cost 15000 Points</p>
+          <p><a onclick="checkCOD()" class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+        <div class="span2">
+          <h2>Batman</h2>
+          <img src="batman.jpg">
+          <p>Cost 25000 Points</p>
+           <p><a onclick="checkbatman()" class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+        <div class="span2">
+          <h2>Sonic</h2>
+          <img src="sonic.jpg">
+          <p>Cost 30000 Points</p>
+          <p><a onclick="checksonic()" class="btn" href="#" >Purchase &raquo;</a></p>
+        </div>
+
+
+
+
+       <div class="span2">
+          <h2>Final Fantasy</h2>
+          <img src="finalfantasy.jpg">
+          <p>Cost 40000 Points</p>
+          <p><a onclick="checkfinal()"class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+        <div class="span2">
+          <h2>Nintendo</h2>
+          <img src="nintendo.jpg">
+          <p>Cost 50000 Points</p>
+         <p><a onclick="checknintendo()"class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+        <div class="span2">
+          <h2>Madden NFL</h2>
+          <img src="madden.jpg">
+          <p>Cost 35000 Points</p>
+         <p><a onclick="checkmadden()"class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+
+
+      </div>
+
+      <hr>
+      <tr>
+        <div class="row-fluid">
+
+
+        <div class="span2">
+          <h2>Avengers</h2>
+          <img src="Avengers.jpg">
+          <p>Cost 15000 Points</p>
+          <p><a onclick="checkavengers()" class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+        <div class="span2">
+          <h2>Game stop</h2>
+          <img src="GameStop.jpg">
+          <p>Cost 25000 Points</p>
+           <p><a onclick="checkgamestop()" class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+        <div class="span2">
+          <h2>Amazon</h2>
+          <img src="Amazon_logo.jpg">
+          <p>Cost 30000 Points</p>
+          <p><a onclick="checkamazon()"class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+       <div class="span2">
+          <h2>Target</h2>
+          <img src="Target.jpg">
+          <p>Cost 40000 Points</p>
+          <p><a onclick="checktarget()"class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+        <div class="span2">
+          <h2>Harkins</h2>
+          <img src="Harkins.jpg">
+          <p>Cost 50000 Points</p>
+         <p><a onclick="checkharkins()"class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+        <div class="span2">
+          <h2>Star bucks</h2>
+          <img src="starbucks.jpg">
+          <p>Cost 35000 Points</p>
+         <p><a onclick="checkstarbucks()"class="btn" href="#">Purchase &raquo;</a></p>
+        </div>
+
+
+
+      </div>
+
+
+
+      </tr>
+
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap-transition.js"></script>
+    <script src="bootstrap/js/bootstrap-alert.js"></script>
+    <script src="bootstrap/js/bootstrap-modal.js"></script>
+    <script src="bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="bootstrap/js/bootstrap-tab.js"></script>
+    <script src="bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="bootstrap/js/bootstrap-popover.js"></script>
+    <script src="bootstrap/js/bootstrap-button.js"></script>
+    <script src="bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="bootstrap/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>

@@ -5,9 +5,19 @@ if (Meteor.isClient) {
       '/leaderboard/': 'leaderboard',
       '/home/': 'home',
       '/rewards/': 'rewards',
+      '/aboutus/': 'aboutus',
       '/lessons/': 'lessons',
       '/lessons/algebra/': 'algebra',
-      '/lessons/biology/': 'biology'
+      '/lessons/biology/': 'biology',
+      '/lessons/arithmetic/': 'arithmetic',
+      '/lessons/chemistry/': 'chemistry',
+      '/lessons/cplusplus/': 'cplusplus',
+      '/lessons/geometry/': 'geometry',
+      '/lessons/html/': 'html',
+      '/lessons/java/': 'java',
+      '/lessons/mathquiz/': 'mathquiz',
+      '/lessons/physics/': 'physics',
+      '/lessons/sciencequiz/': 'sciencequiz'
   });
 }
 
